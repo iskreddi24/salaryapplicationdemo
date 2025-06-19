@@ -29,6 +29,7 @@ public class RestControllerExample {
         employeeDetails.setEmployeeName("vikram singh rathod");
         EmpDesignation empDesignation=new EmpDesignation();
         empDesignation.setFulltimeOrParttime("FULLTIME");
+        empDesignation.setFulltimeOrParttime("FULLTIME EMPLOYEE");
         EmpDesignationType empDesignationType=new EmpDesignationType();
         empDesignationType.setJobtype("SOFTWARE");
         empDesignation.setEmpDesignationType(empDesignationType);
